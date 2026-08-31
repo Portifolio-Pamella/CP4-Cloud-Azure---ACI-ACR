@@ -1,3 +1,4 @@
+//Passo 1: Criar Empresa}
 {
   "nome": "SpaceX Solutions",
   "cnpj": "12345678000199",
@@ -14,18 +15,23 @@
   "coordenadaZ": 30.5
 }
 
+//Passo 3: Criar Satélite
+//(Use o ID da empresa criada no Passo 1)
 {
   "numeroSatelite": "STAR-001",
   "altitudeKm": 550.5,
   "empresaId": 1
 }
 
+//Passo 4: Criar Alerta
+//(Use o ID do Satélite e Detrito criados nos passos anteriores)
 {
   "sateliteId": 1,
   "detritoId": 1,
   "statusGravidade": "ALTA"
 }
 
+//Passo 5: Criar Chaser
 {
   "nome": "Chaser-Alfa-01",
   "bateria": 95,
@@ -34,6 +40,8 @@
   "coordenadaZ": 5.0
 }
 
+//Passo 6: Criar Missão de Interceptação
+//(Use o ID do Alerta e Chaser criados nos passos anteriores)
 {
   "alertaId": 1,
   "chaserId": 1,
