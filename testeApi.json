@@ -1,0 +1,42 @@
+{
+  "nome": "SpaceX Solutions",
+  "cnpj": "12345678000199",
+  "paisOrigem": "EUA",
+  "status": "ATIVO"
+}
+
+{
+  "nome": "Detrito-001",
+  "massaKg": 150.5,
+  "tamanhoMetros": 2.5,
+  "coordenadaX": 10.5,
+  "coordenadaY": 20.0,
+  "coordenadaZ": 30.5
+}
+
+{
+  "numeroSatelite": "STAR-001",
+  "altitudeKm": 550.5,
+  "empresaId": 1
+}
+
+{
+  "sateliteId": 1,
+  "detritoId": 1,
+  "statusGravidade": "ALTA"
+}
+
+{
+  "nome": "Chaser-Alfa-01",
+  "bateria": 95,
+  "coordenadaX": 10.5,
+  "coordenadaY": 20.0,
+  "coordenadaZ": 5.0
+}
+
+{
+  "alertaId": 1,
+  "chaserId": 1,
+  "dataExecucao": "2026-06-05T14:26:54.896",
+  "status": "PENDENTE"
+}
