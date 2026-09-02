@@ -1,0 +1,9 @@
+# Pastas de build
+bin/
+obj/
+.vs/
+
+# Arquivos temporários
+*.user
+*.suo
+*.tmp

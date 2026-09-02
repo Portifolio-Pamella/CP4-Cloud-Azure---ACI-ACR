@@ -1,0 +1,57 @@
+services:
+
+  oracle-db:
+    build:
+      context: ./database
+      dockerfile: Dockerfile
+
+    container_name: oracle_db_RM565206
+
+    shm_size: 1gb
+
+    environment:
+      ORACLE_PASSWORD: ${ORACLE_PASSWORD}
+
+    ports:
+      - "1521:1521"
+
+    volumes:
+      - oracle_data:/u01/app/oracle
+
+    networks:
+      - aegis-network
+
+    restart: unless-stopped
+
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: api_aegis_RM565206
+
+    depends_on:
+      - oracle-db
+
+    environment:
+      ConnectionStrings__OracleConnection: ${ORACLE_CONNECTION_STRING}
+
+    ports:
+      - "8080:8080"
+
+    networks:
+      - aegis-network
+
+    restart: unless-stopped
+
+
+networks:
+
+  aegis-network:
+    driver: bridge
+
+
+volumes:
+
+  oracle_data:
