@@ -17,13 +17,13 @@ Pamella Christiny Chaves Brito | RM565206 (Representante)
 📌 Links de Entrega (Checklist do Professor)
 🎥 Vídeo de Demonstração (Mín. 720p + Audio): [https://youtu.be/q81IKnXv5z0?si=hCX14KOS8Ox-b0Qm]
 
-🗄️ Scripts DDL do Banco (Tabelas, Colunas, PKs): [C:\Users\pamel\Desktop\CP4-Cloud-Azure---ACI-ACR\Banco-ddl\criaçãoBanco.ddl]
+🗄️ Scripts DDL do Banco (Tabelas, Colunas, PKs): [CP4-Cloud-Azure---ACI-ACR\Banco-ddl\criaçãoBanco.ddl]
 
-📄 Payloads JSON (Testes GET, POST, PUT, DELETE): [C:\Users\pamel\Desktop\CP4-Cloud-Azure---ACI-ACR\Teste\testeApi.json]
+📄 Payloads JSON (Testes GET, POST, PUT, DELETE): [CP4-Cloud-Azure---ACI-ACR\Teste\testeApi.json]
 
-💻 Código Fonte da API: [C:\Users\pamel\Desktop\CP4-Cloud-Azure---ACI-ACR\api]
+💻 Código Fonte da API: [CP4-Cloud-Azure---ACI-ACR\api]
 
-📜 Folha de Rosto (PDF): [C:\Users\pamel\Desktop\CP4-Cloud-Azure---ACI-ACR\LevelUp_container.pdf]
+📜 Folha de Rosto (PDF): [CP4-Cloud-Azure---ACI-ACR\LevelUp_container.pdf]
 
 🏗️ Arquitetura do Projeto
 O projeto consiste em uma API RESTful desenvolvida em .NET integrada a um banco de dados Oracle 21c. Toda a infraestrutura foi provisionada na Azure utilizando estritamente Azure CLI e scripts automatizados em Bash.
