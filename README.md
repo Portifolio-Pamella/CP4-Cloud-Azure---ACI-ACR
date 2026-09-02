@@ -15,32 +15,15 @@ Lucas Matsubara Reis | RM565020
 Pamella Christiny Chaves Brito | RM565206 (Representante)
 
 📌 Links de Entrega (Checklist do Professor)
-🎥 Vídeo de Demonstração (Mín. 720p + Audio): [Insira o Link do YouTube/Drive Aqui]
+🎥 Vídeo de Demonstração (Mín. 720p + Audio): [https://youtu.be/q81IKnXv5z0?si=hCX14KOS8Ox-b0Qm]
 
-🗄️ Scripts DDL do Banco (Tabelas, Colunas, PKs): [Link para o arquivo de criação do banco no repositório]
+🗄️ Scripts DDL do Banco (Tabelas, Colunas, PKs): [C:\Users\pamel\Desktop\CP4-Cloud-Azure---ACI-ACR\Banco-ddl\criaçãoBanco.ddl]
 
-📄 Payloads JSON (Testes GET, POST, PUT, DELETE): [Link para a pasta de testes no repositório]
+📄 Payloads JSON (Testes GET, POST, PUT, DELETE): [C:\Users\pamel\Desktop\CP4-Cloud-Azure---ACI-ACR\Teste\testeApi.json]
 
-💻 Código Fonte da API: [Link para a pasta do código fonte no repositório]
+💻 Código Fonte da API: [C:\Users\pamel\Desktop\CP4-Cloud-Azure---ACI-ACR\api]
 
-📜 Folha de Rosto (PDF): [Link para a Folha de Rosto no repositório]
-
-🌐 Endpoints e Recursos Ativos na Nuvem (ACI)
-Os seguintes recursos estão provisionados e ativos no Azure Container Instances (Resource Group: rg-aegis-app):
-
-Banco de Dados Oracle 21c (oracle-dimdim):
-
-IP Público: 130.107.230.198
-
-Porta: 1521
-
-API .NET (api-dotnet):
-
-IP Público: 130.107.173.197
-
-URL Swagger: [http://130.107.173.197:8080/swagger/index.html](http://130.107.173.197:8080/swagger/index.html)
-
-FQDN / Domínio: api-aegis-rm565206.canadacentral.azurecontainer.io:8080/swagger
+📜 Folha de Rosto (PDF): [C:\Users\pamel\Desktop\CP4-Cloud-Azure---ACI-ACR\LevelUp_container.pdf]
 
 🏗️ Arquitetura do Projeto
 O projeto consiste em uma API RESTful desenvolvida em .NET integrada a um banco de dados Oracle 21c. Toda a infraestrutura foi provisionada na Azure utilizando estritamente Azure CLI e scripts automatizados em Bash.

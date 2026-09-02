@@ -1,6 +1,5 @@
 //Passo 1: Criar Empresa
 {
-  "id": 1,
   "nome": "SpaceX Solutions",
   "cnpj": "12345678000199",
   "paisOrigem": "EUA",
@@ -18,7 +17,6 @@
 
 //Passo 2: Criar Detrito
 {
-  "id": 1,
   "nome": "Detrito-001",
   "massaKg": 150.5,
   "tamanhoMetros": 2.5,
@@ -27,9 +25,9 @@
   "coordenadaZ": 30.5,
   "alertas": null
 }
+
 //PUT Detrito
 {
-  "id": 1,
   "nome": "Detrito-002",
   "massaKg": 150.5,
   "tamanhoMetros": 2.5,
@@ -59,7 +57,6 @@
 
 //Passo 5: Criar Chaser
 {
-  "id": 1,   
   "nome": "Chaser-Alfa-01",
   "bateria": 95,
   "coordenadaX": 10.5,
